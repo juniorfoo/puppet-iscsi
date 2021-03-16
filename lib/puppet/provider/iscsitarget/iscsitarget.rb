@@ -1,5 +1,5 @@
 Puppet::Type.type(:iscsitarget).provide(:iscsitarget) do
-
+ desc 'Type for iscsiadm commands'
  commands :iscsiadm => "iscsiadm"
 
  def istatus  
